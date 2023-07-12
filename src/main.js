@@ -9,7 +9,7 @@ if (require('electron-squirrel-startup')) {
 const createWindow = () => {
   browser = new BrowserLikeWindow({
     controlPanel: MAIN_WINDOW_WEBPACK_ENTRY,
-    startPage: 'http://10.15.111.13:18087/',
+    startPage: 'http://28.209.2.70:18080/home',
     blankTitle: 'New tab',
     // debug: true // will open controlPanel's devtools
   });
