@@ -1,6 +1,8 @@
 const { app, BrowserWindow } = require('electron');
 const BrowserLikeWindow = require('./Tools/electronAsBrowser');
 
+if (process.platform === "linux") app.commandLine.appendSwitch("no-sandbox");
+
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require('electron-squirrel-startup')) {
   app.quit();
