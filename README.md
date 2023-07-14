@@ -1,6 +1,6 @@
 # test-electron-as-browser
 
-[electron-as-browser](https://github.com/hulufei/electron-as-browser) + electron-forge 6.2，electron 18, support win7
+[electron-as-browser](https://github.com/hulufei/electron-as-browser) + electron-forge 6.2，electron 18, support win7 and 银河麒麟v4 (debian)
 
 
 ## build for deb on mac
